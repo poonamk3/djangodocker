@@ -5,7 +5,7 @@
     <title>{% if object %}Edit Task {% else %} Create New Task {% endif %}</title>
 </head>
 <body>
-<h3>{% if object %}Edit Task {% else %} Create New Task Poonam {% endif %}</h3>
+<h3>{% if object %}Edit Task {% else %} NEW TASK NEEMUCH {% endif %}</h3>
     <form action="" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form.as_p }}
